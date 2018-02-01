@@ -1,0 +1,530 @@
+
+
+/*====================================================
+body style
+======================================================*/
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+body section div.sitewapper {
+    width: 80%;
+    margin: auto;
+}
+
+body section div.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*====================================================
+body style
+======================================================*/
+
+
+
+
+/*====================================================
+section nav style
+======================================================*/
+
+body section.nav {
+    background-color: #f9f9f9;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    border-bottom: #222222 2px solid;
+}
+
+body section.nav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body section.nav nav ul li {
+    float: right;
+}
+
+
+body section.nav nav ul li a {
+    display: block;
+    color: #222222;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body section.nav nav ul li.left {
+    float: left;
+}
+
+body section.nav nav ul li.left a{
+    padding: 5px 0 0 0;
+}
+
+body section.nav nav ul li.border {
+    padding-top: 6px;
+}
+
+body section.nav nav ul li.border a{
+    border: #215a8c 2px solid;
+    padding: 5px 7px;
+    margin-top: 7px;
+}
+
+body section.nav nav ul li a img {
+    height: 50px;
+    margin: 0;
+}
+
+body section.nav nav ul li a:visited {
+    color: #222222;
+}
+
+body section.nav nav ul li a:hover {
+    color: #215a8c;
+    font-weight: 600;
+}
+
+body section.nav nav ul li.border a:hover {
+    background-color: #215a8c;
+    color: white;
+}
+
+body section.nav nav ul li a:active {
+    color: #d5c9ae;
+}
+
+body section.nav nav ul li.border a:active {
+    color: #d5c9ae;
+}
+
+/*====================================================
+section nav style
+======================================================*/
+
+
+
+
+
+
+/*====================================================
+section1 body style
+======================================================*/
+
+body section.section1 {
+    background: white;
+    width: 100%;
+    height: 844px;
+    margin: 0;
+    padding: 0;
+}
+
+body section.section1 div.cover {
+    height: 100%;
+    background: url('../images/cover/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+body section.section1 article {
+    width: 250px;
+    position: relative;
+    top: 320px;
+    right: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+body section.section1 article p {
+    color: #222222;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+body section.section1 article p strong{
+    color: #296996;
+}
+
+body section.section1 article p.button {
+    border: #215a8c 2px solid;
+    width: 110px;
+    padding: 2px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+body section.section1 article p.button a {
+    text-decoration: none;
+    color: #222222;
+}
+
+body section.section1 article p.button:hover {
+    background-color: #215a8c;
+}
+
+body section.section1 article p.button a:hover {
+    color: #f9f9f9;
+}
+
+body section.section1 article p.button a:active {
+    color: #d5c9ae;
+}
+
+
+/*====================================================
+section1 body style
+======================================================*/
+
+
+
+
+
+/*====================================================
+section2 body style
+======================================================*/
+
+
+body section.section2 {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 950px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 7px 0 7px 0;
+}
+
+body section.section2 h1 {
+    padding-top: 50px;
+    margin-top: 5%;
+}
+
+body section.section2 h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+
+body section.section2 div.container {
+    justify-content: space-between;
+    width: 100%;
+}
+
+body section.section2 div.container article {
+    padding: 0;
+    margin: 0;
+    width: 49%;
+    font-size: 14px;
+}
+
+body section.section2 div.container article h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 5%;
+}
+
+body section.section2 div.container article h4 {
+    margin-left: 15px;
+}
+
+body section.section2 div.container article a.cv_button {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    background-color: #215a8c;
+    color: white;
+    width: 180px;
+    padding: 10px;
+    margin-top: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+body section.section2 div.container article a.cv_button:hover {
+    color:#222222;
+    background-color: #d5c9ae;
+    border: #215a8c solid 2px;
+}
+
+body section.section2 div.container article img.text{
+    width: 100%;
+    margin-top: 20px;
+}
+
+body section.section2 div.container article.wrap {
+    padding: 0;
+    margin-top: 5%;
+    width: 49%;
+    background-color: white;
+    box-shadow: 10px 7px 4px #e9e9e9;
+    overflow: hidden;
+}
+
+body section.section2 div.container article.wrap h3 {
+    margin: 15px;
+    padding: 0;
+}
+
+body section.section2 div.container article.wrap div.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+body section.section2 div.container article.wrap div.container p{
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+/*====================================================
+section2 body style
+======================================================*/
+
+
+
+
+
+
+/*====================================================
+section3 body style
+======================================================*/
+
+body section.section3 {
+    color: white;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+
+body section.section3 div.cover {
+    height: 100%;
+    background: url('../images/cover/cover2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+body section.section3 article {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body section.section3 article img {
+    height: 40px;
+    width: 40px;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+
+body section.section3 h1 {
+    padding: 70px;
+}
+
+
+
+
+
+
+
+
+/*====================================================
+footer style
+======================================================*/
+
+
+footer {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #292929;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+}
+
+/*====================================================
+footer style
+======================================================*/
+
+
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+
+
+
+@media (max-width: 1000px) {
+    body section.section1 article{
+right: auto;
+    }
+
+    body section.section2 div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body section.section2 {
+        height: 1300px;
+    }
+}
+
+@media (max-width: 690px) {
+
+    body section.nav nav ul {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    body section.nav nav ul li {
+        flex: 1;
+
+    }
+    body section.nav nav ul li a{
+        padding: 0;
+        margin: auto;
+    }
+
+    body section.nav nav ul li a img {
+        height: 20px;
+    }
+
+    body section.nav nav ul li.border {
+        margin: auto auto 10px auto;
+    }
+
+    body section.nav nav ul li.border a {
+        width: 100px;
+        margin: 0;
+        padding: 0;
+    }
+
+    body section.section1{
+        height: 700px;
+    }
+
+    body section.section1 div.cover {
+        background: url('../images/cover/cover4.jpg');
+        background-size: cover;
+
+        }
+
+    body section.section1 article {
+    right: auto;
+    }
+
+    body section.section2{
+    height: 1500px;
+}
+
+    body section h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    body section.section2 div.container article {
+        width: 100%;
+    }
+
+    body section.section2 div.container article a.cv_button {
+        margin: 10px auto 50px auto;
+    }
+
+    body section.section2 div.container article.wrap {
+        width: 100%;
+        margin-top: 50px;
+}
+
+    body section.section2 div.container article.wrap div.container article{
+        flex: 1;
+    }
+
+body section.section3{
+height: 1300px;
+}
+
+body section.section3 div.cover{
+    background: url('../images/cover/cover5.png');
+background-size: cover;
+}
+
+body section.section3 div.container {
+flex-direction: column;
+}
+
+body section.section3 div.container article{
+width: 100%;
+margin: 20px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Botton*/

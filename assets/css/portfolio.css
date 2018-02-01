@@ -1,0 +1,490 @@
+
+
+/*====================================================
+body style
+======================================================*/
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+body section div.sitewapper {
+    width: 80%;
+    margin: auto;
+}
+
+body section div.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*====================================================
+body style
+======================================================*/
+
+
+
+
+/*====================================================
+section nav style
+======================================================*/
+
+body section.nav {
+    background-color: #f9f9f9;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    border-bottom: #222222 2px solid;
+}
+
+body section.nav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body section.nav nav ul li {
+    float: right;
+}
+
+
+body section.nav nav ul li a {
+    display: block;
+    color: #222222;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body section.nav nav ul li.left {
+    float: left;
+}
+
+body section.nav nav ul li.left a{
+    padding: 5px 0 0 0;
+}
+
+body section.nav nav ul li.border {
+    padding-top: 6px;
+}
+
+body section.nav nav ul li.border a{
+    border: #215a8c 2px solid;
+    padding: 5px 7px;
+    margin-top: 7px;
+}
+
+body section.nav nav ul li a img {
+    height: 50px;
+    margin: 0;
+}
+
+body section.nav nav ul li a:visited {
+    color: #222222;
+}
+
+body section.nav nav ul li a:hover {
+    color: #215a8c;
+    font-weight: 600;
+}
+
+body section.nav nav ul li.border a:hover {
+    background-color: #215a8c;
+    color: white;
+}
+
+body section.nav nav ul li a:active {
+    color: #d5c9ae;
+}
+
+body section.nav nav ul li.border a:active {
+    color: #d5c9ae;
+}
+
+body section.nav nav ul li a.active {
+    font-weight: 600;
+}
+
+
+/*====================================================
+section nav style
+======================================================*/
+
+
+
+
+
+
+/*====================================================
+section1 body style
+======================================================*/
+
+body section.section1 {
+    background: white;
+    width: 100%;
+    height: 844px;
+    margin: 0;
+    padding: 0;
+}
+
+body section.section1 h1 {
+    padding-top: 120px;
+    margin: 0 0 30px 0;
+}
+
+body section.section1 h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+
+body section.section1 div.container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+body section.section1 article {
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+
+
+body section.section1 article.animation {
+    width: 200px;
+    height: 250px;
+    background: url(../animation/animation.jpg) 0 0 no-repeat;
+    animation: wink 1s steps(11) infinite;
+}
+
+@keyframes wink {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: -3300px;
+    }
+}
+
+body section.section1 article.island img{
+    width: 150%;
+    position: relative;
+    transform: translate(-90px, -253px);
+}
+
+body section.section1 article video {
+    position: relative;
+    transform: translate(0, -260px);
+    width: 100%;
+}
+
+body section.section1 article.dom_tree img {
+    width: 140%;
+    position: relative;
+    transform: translate(-10px, -253px);
+}
+
+
+
+
+body section.section1 a.button {
+    display: block;
+    color: rgba(255,0,0,0.0);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    border-radius: 15px;
+    position: relative;
+    padding: 60% 0 55% 0;
+    z-index: 10;
+}
+
+body section.section1 article.island a.button {
+    padding: 40% 0 37% 0;
+}
+
+body section.section1 article.video a.button {
+    padding: 40% 0 37% 0;
+}
+
+body section.section1 article.dom_tree a.button {
+    padding: 40% 0 37% 0;
+}
+
+
+
+
+body section.section1 a.button:hover {
+    background: rgba(213, 201, 174, 0.3);
+    color: #222222;
+
+}
+
+body section.section1 .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 11;
+}
+body section.section1 .overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 11;
+}
+
+body section.section1 .popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 70%;
+  height: 70%;
+  position: relative;
+}
+
+body section.section1 .popup h2 {
+  margin-top: 0;
+  color: #222222;
+  text-align: center;
+  padding-top: 30px;
+}
+
+body section.section1 .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+body section.section1 .popup .close:hover {
+  color: rgba(213, 201, 174, 1);
+}
+
+body section.section1 div #popup1 div.animation {
+    width: 200px;
+    height: 250px;
+    background: url(../animation/animation.jpg) 0 0 no-repeat;
+    animation: wink 1s steps(11) infinite;
+    margin: auto;
+    padding-top: 15%;
+}
+
+body section.section1 div #popup2 img.island {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+body section.section1 div #popup3 video {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+body section.section1 div #popup4 img.dom_tree {
+    width: 55%;
+    display: block;
+    margin: auto;
+}
+
+body section.section1 div #popup4 a.dom_tree {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    background-color: #215a8c;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin: 25px auto 0 auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+body section.section1 div #popup4 a.dom_tree:hover {
+    color:#222222;
+    background-color: #d5c9ae;
+    border: #215a8c solid 2px;
+}
+
+/*====================================================
+section1 body style
+======================================================*/
+
+
+
+
+
+
+
+
+
+
+
+/*====================================================
+footer style
+======================================================*/
+
+
+footer {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #292929;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+}
+
+/*====================================================
+footer style
+======================================================*/
+
+
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (max-width: 1420px) {
+
+    body section.section1 {
+        height: 1100px;
+    }
+
+}
+
+
+@media (max-width: 1020px) {
+
+    body section.section1 {
+        height: 1400px;
+    }
+
+    body section div.container {
+        flex-direction: column;
+    }
+
+    body section.section1 article{
+        flex: 1;
+        margin: 10px auto;
+    }
+}
+
+
+
+
+@media (max-width: 690px) {
+
+    body section.nav nav ul {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    body section.nav nav ul li {
+        flex: 1;
+
+    }
+    body section.nav nav ul li a{
+        padding: 0;
+        margin: auto;
+    }
+
+    body section.nav nav ul li a img {
+        height: 20px;
+    }
+
+    body section.nav nav ul li.border {
+        margin: auto auto 10px auto;
+    }
+
+    body section.nav nav ul li.border a {
+        width: 100px;
+        margin: 0;
+        padding: 0;
+    }
+
+    body section.section1 h1{
+        padding-top: 170px;
+    }
+
+    body section div.container {
+        flex-direction: column;
+    }
+
+    body section.section1 article{
+        flex: 1;
+        margin: 10px auto;
+    }
+
+    body section.section1 .popup{
+        margin-top: 130px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Botton*/
